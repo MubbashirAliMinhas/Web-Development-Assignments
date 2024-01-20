@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="img-area"></div>
+        <div class="form-area">
+            <div class="form-input-area">
+                <div class="form-column-container">
+                    <div class="input-container">
+                        <label for="first-name" class="form-label required">FIRST NAME</label>
+                        <input type="text" class="form-input" id="first-name" required>
+                    </div>
+                    <div class="input-container">
+                        <label for="last-name" class="form-label required">LAST NAME</label>
+                        <input type="text" class="form-input" id="last-name" required>
+                    </div>
+                    <div class="input-container">
+                        <label for="company" class="form-label required">COMPANY</label>
+                        <input type="text" class="form-input" id="comapany" required>
+                    </div>
+                    <div class="input-container">
+                        <label for="email" class="form-label required">EMAIL</label>
+                        <input type="text" class="form-input" id="email" required>
+                    </div>
+                    <div class="input-container">
+                        <label for="phone-number" class="form-label required">PHONE NUMBER</label>
+                        <input type="text" class="form-input" id="phone-number" required>
+                    </div>
+                </div>
+
+                <div class="form-column-container">
+                    <div class="input-container">
+                        <label for="meal-preference" class="form-label">MEAL PREFERENCE</label>
+                        <p class="form-p">Lunch detail</p>
+                        <select id="meal-preference" class="form-select">
+                            <option value="0">Vegetarian</option>
+                        </select>
+                        <p class="form-select-p">▼</p>
+                    </div>
+                    <div class="input-container">
+                        <label class="form-label">PAYMENT MODE</label>
+                        <p class="form-p">Payment detail</p>
+                        <div class="radio-container">
+                            <input type="radio" name="payment" id="cash" class="form-radio" checked>
+                            <label for="cash" class="form-radio-label">Cash</label>
+                            <input type="radio" name="payment" id="cheque" class="form-radio">
+                            <label for="cheque" class="form-radio-label">Cheque</label>
+                            <input type="radio" name="payment" id="demand-draf" class="form-radio">
+                            <label for="demand-draf" class="form-radio-label">Demand Draf</label>
+                        </div>
+                    </div>
+                    <div class="input-container">
+                        <label for="cheque-number" class="form-label">DD/CHEQUE NO.</label>
+                        <input type="text" class="form-input" id="cheque-number">
+                    </div>
+                    <div class="input-container">
+                        <label for="drawn-on" class="form-label">DRAWN ON(BANK NAME)</label>
+                        <input type="text" class="form-input" id="drawn-on">
+                    </div>
+                    <div class="input-container">
+                        <label for="bank-name" class="form-label">BANK NAME</label>
+                        <input type="text" class="form-input" id="bank-name">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="range-container">
+                <label for="donate-us" class="form-label">DONATE US</label>
+                <input type="range" id="donate-us" class="form-range" min="0" max="1000" value="500">
+                <div class="form-range-progress"></div>
+            </div>
+            <div class="button-container">
+                <input type="button" value="SUBMIT" class="form-button button1">
+                <input type="button" value="RESET" class="form-button button2">
+            </div>
+        </div>
+        <script src="signup.js"></script>
+    </div>
+</body>
+</html>

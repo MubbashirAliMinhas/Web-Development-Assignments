@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="input-container">
+            <label for="name" class="input-label">Name:</label>
+            <input type="text" class="text-input" id="name">
+            <p class="error-text" id="name-error">Error</p>
+        </div>
+        <div class="input-container">
+            <label for="email" class="input-label">Email:</label>
+            <input type="text" class="text-input" id="email">
+            <p class="error-text" id="email-error">Error</p>
+        </div>
+        <div class="input-container">
+            <label for="phone-number" class="input-label">Phone number:</label>
+            <input type="text" class="text-input" id="phone-number">
+            <p class="error-text" id="phone-number-error">Error</p>
+        </div>
+        <div class="input-container">
+            <label for="password" class="input-label">Password:</label>
+            <input type="text" class="text-input" id="password">
+            <p class="error-text" id="password-error">Error</p>
+        </div>
+        <div class="input-container">
+            <label for="select-department" class="input-label">Department:</label>
+            <select class="select-option" id="select-department">
+                <option selected hidden>Select Department</option>
+                <option>Computer Science</option>
+                <option>Software Engineering</option>
+                <option>Information Technology</option>
+            </select>
+            <p class="error-text" id="department-error">Error</p>
+        </div>
+        <div class="input-container">
+            <h4 class="radio-heading">Session:</h4>
+            <div class="radio-container">
+                <input type="radio" name="session" id="morning" class="input-radio">
+                <label for="morning" class="input-label radio-label">Morning</label>
+                <input type="radio" name="session" id="evening" class="input-radio">
+                <label for="evening" class="input-label radio-label">Evening</label>
+            </div>
+            <p class="error-text" id="session-error">Error</p>
+        </div>
+        <input type="button" value="SUBMIT" class="submit-button">
+        <p class="success-text">Success</p>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

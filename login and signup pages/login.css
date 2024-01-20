@@ -1,0 +1,85 @@
+body {
+    margin: 0px;
+    background-image: url("images/background.jpg");
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+    width: 400px;
+    height: 95%;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-input {
+    background-color: white;
+    border-width: 0px;
+    box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.1);
+    height: 60px;
+    width: 280px;
+    border-radius: 20px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.card-input::placeholder {
+    color: black;
+}
+
+.card-button {
+    height: 50px;
+    width: 160px;
+    border-radius: 50px;
+    border-width: 0;
+    background-color: blueviolet;
+    color: white;
+    box-shadow: 5px 5px 25px rgba(137, 43, 226, 0.6);
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.card-h1 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.card-p {
+    color: gray;
+    margin-top: 65px;
+}
+
+.social-container {
+    display: flex;
+    width: 110px;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.card-img {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.card-a {
+    text-decoration: none;
+    color:indigo;
+    margin-top: 130px;
+}

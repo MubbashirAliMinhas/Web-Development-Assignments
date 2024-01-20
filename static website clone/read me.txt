@@ -1,0 +1,14 @@
+For best experience use the following resolution and windows scaling
+resolution: 1920x1080
+scaling: 	125%
+
+Supported resolutions and scalings are:
+Resolution	Scaling
+1920x1080	100%
+1920x1080	150%
+1366x768	100%
+1360x768	100%
+1280x720	100%
+
+make sure sidebar of the browser is disabled
+above widths with different height resolution may also work
